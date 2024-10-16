@@ -1,0 +1,101 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    width: 320px;
+    height: 240px;
+}
+header{
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+    border: 3px solid #2E2E2E;
+    padding: 5px;
+    width: 500px;
+   margin: 0px auto;
+   box-shadow: 0px  0px 15px #434F5B;
+}
+header h1{
+    color: #212A3F;
+    font-size: 45px;
+}
+header p{
+    color: #434F5B;
+}
+#topnav{
+    font-family: 'Dancing script' , cursive;
+    background-color: #434F5B;
+    font-size: 30px;
+    text-transform: lowercase;
+    width: 525px;
+    margin: 0px auto;
+}
+#topnav ul{
+    padding: 20px 15px;
+    margin: 0px;
+    text-align: center;
+}
+#topnav ul li{
+    list-style-type: none;
+    display: inline;
+}
+#topnav ul li a{
+    color: #F2F2F2;
+    text-decoration: none;
+    margin: 0px 15px;
+    padding: 5px;
+}
+#botnav a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#topnav ul li a:hover{
+    border-bottom: 3px soild #F2F2F2;
+    transition: 50ms linear 0s;
+    -moz-transition: 50ms linear 0s;
+    -webkit-transition: 50ms linear 0s;
+}
+body{
+    background-color: #F2F2F2;
+}
+hr{
+    color: #434F5B;
+    width: 350px;
+}
+#home,#about,#services,#notableworks,#timing,#contact{
+    font-family: 'Lora' serif;
+}
+#home h1, #about h2, #services h2, #timing h2{
+    color: #212A3F;
+    text-align: center;
+}
+#home p, #about p, #services p, #notableworks p, #timing p, #contact{
+    color: #2E2E2E;
+    text-align: center;
+    width: 520px;
+    margin: 0px auto;
+}
+#home img, #notableworks img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#services ul{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+table,th,tr,td{
+    border: 3px solid #212A3F;
+    border-collapse: collapse;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
