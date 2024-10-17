@@ -1,12 +1,18 @@
+
+/* Reset Properties */
 body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
+/*Styling images  */
 img{
     width: 320px;
     height: 240px;
 }
+
+/* Styling header */
 header{
     font-family: 'Dancing script', cursive;
     text-align: center;
@@ -23,11 +29,12 @@ header h1{
 header p{
     color: #434F5B;
 }
+
+/* Nanbar styling */
 #topnav{
     font-family: 'Dancing script' , cursive;
     background-color: #434F5B;
     font-size: 30px;
-    text-transform: lowercase;
     width: 525px;
     margin: 0px auto;
 }
@@ -51,12 +58,16 @@ header p{
     display: block;
     text-align: center;
 }
+ 
 #topnav ul li a:hover{
-    border-bottom: 3px soild #F2F2F2;
-    transition: 50ms linear 0s;
-    -moz-transition: 50ms linear 0s;
-    -webkit-transition: 50ms linear 0s;
+    background-color: whitesmoke;
+   color: #2E2E2E;
+   border-radius: 15px;
 }
+
+/*  styling title list only */
+
+
 body{
     background-color: #F2F2F2;
 }
@@ -77,11 +88,27 @@ hr{
     width: 520px;
     margin: 0px auto;
 }
-#home img, #notableworks img{
+#home img,  #about img, #contact img, #notableworks img{
     display: block;
     margin-left: auto;
     margin-right:auto;
+    
 }
+#notableworks img:hover{
+    padding: 10px;
+    border-radius: 20px;
+}
+#home > img, #about > img, #contact > img, #notableworks > img{
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+#home:hover img, #about:hover img, #contact:hover img, #notableworks:hover img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
 #services ul{
     text-align: center;
     margin: 0px;
@@ -98,4 +125,12 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
-
+footer nav a{
+    text-decoration: none;
+}
+footer nav a:hover{
+    background-color: #434F5B;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
